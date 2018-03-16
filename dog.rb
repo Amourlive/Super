@@ -11,8 +11,6 @@ class Dog < Animal
   end
 end
 
-dillon = Dog.new
-dillon.name = 'Dillon'
-dillon.age = 4
+dillon = Dog.new('Dillon', 4)
 dillon.move('tree')
 puts dillon.to_s
