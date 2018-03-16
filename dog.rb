@@ -5,8 +5,14 @@ class Dog < Animal
     puts "#{@name} scratches his ear"
     super
   end
+
+  def to_s
+    "#{@name} the dog, age #{@age}"
+  end
 end
 
 dillon = Dog.new
 dillon.name = 'Dillon'
+dillon.age = 4
 dillon.move('tree')
+puts dillon.to_s
