@@ -3,8 +3,8 @@ class Animal
   attr_reader :name, :age
 
   def initialize(name = 'animal', age = 0)
-    @name = name
-    @agm = age
+    self.name = name
+    self.age = age
   end
 
   def name=(value)
