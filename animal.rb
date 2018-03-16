@@ -2,6 +2,11 @@
 class Animal
   attr_reader :name, :age
 
+  def initialize
+    @name = 'animal'
+    @agm = 0
+  end
+
   def name=(value)
     raise 'Name can\'t be blank' if value == ''
     @name = value
