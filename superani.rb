@@ -35,3 +35,4 @@ bar = MyClass.new
 p MyClass.ancestors
 p MyModule.ancestors
 p MyClass.methods
+p bar.methods
